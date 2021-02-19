@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="726.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.Controller.WindowViewController">
+   <children>
+      <TableView fx:id="computerTableView" prefHeight="400.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="ramColumn" prefWidth="75.0" text="RAM" />
+            <TableColumn fx:id="hddColumn" prefWidth="75.0" text="HDD" />
+            <TableColumn fx:id="powerSuplyColumn" prefWidth="75.0" text="Power Supply" />
+            <TableColumn fx:id="videoCardColumn" prefWidth="75.0" text="Video Card" />
+        </columns>
+      </TableView>
+      <Button fx:id="createButton" layoutX="631.0" layoutY="104.0" mnemonicParsing="false" text="Create" />
+      <Button fx:id="updateButton" layoutX="629.0" layoutY="162.0" mnemonicParsing="false" text="Update" />
+      <Button fx:id="deleteButton" layoutX="631.0" layoutY="213.0" mnemonicParsing="false" text="Delete" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="219.0" prefWidth="449.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.Controller.CreateViewController">
+   <children>
+      <Button fx:id="createButton" layoutX="119.0" layoutY="180.0" mnemonicParsing="false" text="create" />
+      <Button fx:id="exitButton" layoutX="288.0" layoutY="180.0" mnemonicParsing="false" text="Exit" />
+      <Label layoutX="106.0" layoutY="14.0" text="RAM" />
+      <Label layoutX="107.0" layoutY="56.0" text="HDD" />
+      <Label layoutX="83.0" layoutY="101.0" text="Power Supply" />
+      <Label layoutX="90.0" layoutY="141.0" text="Video Card" />
+      <TextField fx:id="ramTextField" layoutX="225.0" layoutY="10.0" />
+      <TextField fx:id="hddTextField" layoutX="225.0" layoutY="52.0" />
+      <TextField fx:id="powerSupplyTextField" layoutX="225.0" layoutY="98.0" />
+      <TextField fx:id="videoCardTextField" layoutX="225.0" layoutY="137.0" />
+      <Label layoutX="192.0" layoutY="14.0" text="int" />
+      <Label layoutX="192.0" layoutY="56.0" text="int" />
+      <Label layoutX="192.0" layoutY="102.0" text="int" />
+      <Label layoutX="185.0" layoutY="141.0" text="String" />
+   </children>
+</AnchorPane>
